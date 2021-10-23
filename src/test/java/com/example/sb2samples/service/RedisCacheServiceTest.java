@@ -25,7 +25,7 @@ public class RedisCacheServiceTest {
     @Autowired
     RedisCacheService redisCacheService;
 
-//赵云
+//赵云孙权
     @Test
     public void test() {
         User user = new User();
