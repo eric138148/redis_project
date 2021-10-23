@@ -39,6 +39,7 @@ public class RedisCacheServiceTest {
 
     }
 
+    //张飞
     @Test
     public void redisList() {
         Set<User> lists = new HashSet<>();
