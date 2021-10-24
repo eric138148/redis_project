@@ -63,6 +63,7 @@ public class RedisCacheServiceTest {
         redisCacheService.redisArrayCacheExpireSeconds("key",lists,50);
     }
 
+    //曹操
     @Test
     public void getredisList(){
         List<User> key = redisCacheService.parseRedisArrayCache("key", User.class);
