@@ -39,7 +39,7 @@ public class RedisCacheServiceTest {
 
     }
 
-    //张飞张苞
+    //张飞张苞于禁
     @Test
     public void redisList() {
         Set<User> lists = new HashSet<>();
