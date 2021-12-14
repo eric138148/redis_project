@@ -1,15 +1,15 @@
 package com.example.sb2samples.model;
 
 public class product {
-    private int id;
+    private int ids;
     private String productName;
     private int stock;
 
     public int getId(){
-        return id;
+        return ids;
     }
     public void setId(int id){
-        this.id=id;
+        this.ids=id;
     }
     public String getProductName(){
         return productName;
