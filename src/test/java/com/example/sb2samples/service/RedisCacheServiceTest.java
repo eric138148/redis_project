@@ -30,7 +30,7 @@ public class RedisCacheServiceTest {
     public void test() {
         User user = new User();
         user.setId(1l);
-        user.setUsername("maki");
+        user.setUsername("andy");
         user.setPassword("1234");
         redisCacheService.redisCache("1",user);
 
