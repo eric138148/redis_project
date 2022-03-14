@@ -13,16 +13,16 @@ import java.io.Serializable;
 public class User implements Serializable {
 
     private static final long serialVersionUID = -281034684366346160L;
-    private Long ids;
+    private Long ids2;
     private String usernames;
     private String password;
 
     public Long getId() {
-        return ids;
+        return ids2;
     }
 
     public void setId(Long id) {
-        this.ids = id;
+        this.ids2 = id;
     }
 
     public String getUsername() {
@@ -50,7 +50,7 @@ public class User implements Serializable {
     }
 
     public User(Long id, String username, String password) {
-        this.ids = id;
+        this.ids2 = id;
         this.usernames = username;
         this.password = password;
     }
